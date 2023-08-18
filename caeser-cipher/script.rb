@@ -1,6 +1,5 @@
 def caesar_cipher(string, shift)
     result = ""
-    index = 0
     string_array = string.split("")
     string_array.each do |character|
         ascii_value = character.ord        

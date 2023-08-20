@@ -3,7 +3,7 @@ def bubble_sort(array)
     temp = 0
     sorted = false
 
-    until sorted 
+    until sorted
 
         change = false
         array.each_with_index do |left, left_index|
@@ -20,12 +20,12 @@ def bubble_sort(array)
         end
 
         unless change
-            sorted = true
+          sorted = true
         end
     end
     p array
     array
-end 
+end
 
 bubble_sort([4,3,78,2,0,2])
-#=> [0,2,2,3,4,78]
+#=> [0,2,2,3,4,78

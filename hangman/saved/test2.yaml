@@ -1,0 +1,8 @@
+--- !ruby/object:Game
+chosen_word: bouquet
+guess_array:
+- a
+incorrect_guess: 1
+output_string: _______
+status: ''
+guess: a

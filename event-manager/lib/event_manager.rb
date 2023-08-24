@@ -28,7 +28,7 @@ def clean_phone_number(phone_number)
   elsif phone_number.length == 10
     phone_number
   else
-    'bad number'
+    'Bad number!'
   end
 end
 
@@ -76,7 +76,7 @@ contents.each do |row|
   legislators = legislators_by_zipcode(zipcode)
   date = row[:regdate]
 
-  
+
   date_to_string = DateTime.strptime(date, '%m/%d/%y %H:%M')
   hour_registered[i] = date_to_string.hour
   day_registered[i] = date_to_string.wday
